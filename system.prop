@@ -61,5 +61,9 @@ debug.sensors=1
 # Vendor security patch level
 ro.lineage.build.vendor_security_patch=2016-06-01
 
+# Wfd
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+
 # Wifi
 wifi.interface=wlan0
