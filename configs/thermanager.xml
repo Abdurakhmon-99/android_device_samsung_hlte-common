@@ -46,9 +46,9 @@
 		<resource name="backlight" type="sysfs">/sys/class/leds/lcd-backlight/max_brightness</resource>
 
 		<resource name="kgsl-3d0" type="sysfs">/sys/class/kgsl/kgsl-3d0/max_gpuclk</resource>
-		<resource name="usb" type="sysfs">/sys/class/power_supply/usb/current_max</resource>
-		<resource name="battery_temp" type="sysfs">/sys/class/power_supply/battery/temp</resource>
-		<resource name="charging_enabled" type="sysfs">/sys/class/power_supply/battery/charging_enabled</resource>
+		<resource name="usb" type="sysfs">/sys/devices/battery.95/power_supply/usb/current_max</resource>
+		<resource name="battery_temp" type="sysfs">/sys/devices/battery.95/power_supply/battery/temp</resource>
+		<resource name="charging_enabled" type="sysfs">/sys/devices/battery.95/power_supply/battery/charge_now</resource>
 
 		<!-- TODO: -->
 		<resource name="camera" type="echo" />
