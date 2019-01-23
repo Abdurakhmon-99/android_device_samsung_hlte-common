@@ -82,6 +82,11 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     lights.MSM8974
 
+# Lineage apps
+PRODUCT_PACKAGES += \
+    Jelly \
+    Eleven
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
